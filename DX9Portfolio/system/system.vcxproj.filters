@@ -1,2 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Include">
+      <UniqueIdentifier>{e0ab561c-9fa4-4fcf-9bc4-b849689214fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Include\00.Common">
+      <UniqueIdentifier>{35e59494-97d9-4bdd-ae11-f175257b26ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Include\01.Project">
+      <UniqueIdentifier>{694bfe10-dace-476d-8776-6e00685b54e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Interface">
+      <UniqueIdentifier>{73dbf98f-718d-42b6-9580-54f349996757}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\reference\include\Enumeration.h">
+      <Filter>00.Include\00.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\reference\include\Macro.h">
+      <Filter>00.Include\00.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\reference\include\Constant.h">
+      <Filter>00.Include\00.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\reference\include\Define.h">
+      <Filter>00.Include\00.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemMacro.h">
+      <Filter>00.Include\01.Project</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemConstant.h">
+      <Filter>00.Include\01.Project</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemDefine.h">
+      <Filter>00.Include\01.Project</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SystemEnumeration.h">
+      <Filter>00.Include\01.Project</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ISystem.h">
+      <Filter>01.Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\ISystem.cpp">
+      <Filter>01.Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -23,6 +23,15 @@
     <ClInclude Include="..\reference\include\Define.h" />
     <ClInclude Include="..\reference\include\Enumeration.h" />
     <ClInclude Include="..\reference\include\Macro.h" />
+    <ClInclude Include="code\client.h" />
+    <ClInclude Include="include\ClientConstant.h" />
+    <ClInclude Include="include\ClientDefine.h" />
+    <ClInclude Include="include\ClientEnumeration.h" />
+    <ClInclude Include="include\ClientMacro.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\client.cpp" />
+    <ClCompile Include="code\entrance.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
