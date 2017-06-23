@@ -6,5 +6,7 @@
 #include "ClientEnumeration.h"
 #include "ClientMacro.h"
 
+#include "WndClass.h"
+#include "Client.h"
 
 #endif // !__CLIENTDEFINE_H__

@@ -3,10 +3,18 @@
 
 class CClient
 {
+	DECLARE_SINGLETON(CClient)
+private:
+	explicit CClient();
 public:
-	CClient();
 	~CClient();
 
-private:
+public:
+	void	OnInit			(HINSTANCE& hInstance);
+	int		Run				();
 
+private:
+	void	OnProcess		();
+	void	OnRender		();
+	void	OnRelease		();
 };

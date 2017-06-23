@@ -1,5 +1,0 @@
-#ifndef __SYSTEMENUMERATION_H__
-#define __SYSTEMENUMERATION_H__
-
-
-#endif // !__SYSTEMENUMERATION_H__

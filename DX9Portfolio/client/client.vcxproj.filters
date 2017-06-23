@@ -13,8 +13,11 @@
     <Filter Include="01.Client">
       <UniqueIdentifier>{8e61b3f3-c112-44d6-a695-8f9033de4dd8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="01.Client\00.Client">
-      <UniqueIdentifier>{2d3de6e1-b4fc-416a-99e9-a3676589c3c7}</UniqueIdentifier>
+    <Filter Include="01.Client\01.Client">
+      <UniqueIdentifier>{5d6504e0-d76a-457a-b30f-d6819de438ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Client\00.Window">
+      <UniqueIdentifier>{7d2ca317-11ad-4ddc-80b8-944140f7b852}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -30,9 +33,6 @@
     <ClInclude Include="..\reference\include\Define.h">
       <Filter>00.Include\00.Common</Filter>
     </ClInclude>
-    <ClInclude Include="code\client.h">
-      <Filter>01.Client\00.Client</Filter>
-    </ClInclude>
     <ClInclude Include="include\ClientDefine.h">
       <Filter>00.Include\01.Project</Filter>
     </ClInclude>
@@ -45,13 +45,22 @@
     <ClInclude Include="include\ClientConstant.h">
       <Filter>00.Include\01.Project</Filter>
     </ClInclude>
+    <ClInclude Include="code\WndClass.h">
+      <Filter>01.Client\00.Window</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Client.h">
+      <Filter>01.Client\01.Client</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\entrance.cpp">
       <Filter>01.Client</Filter>
     </ClCompile>
-    <ClCompile Include="code\client.cpp">
-      <Filter>01.Client\00.Client</Filter>
+    <ClCompile Include="code\WndClass.cpp">
+      <Filter>01.Client\00.Window</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Client.cpp">
+      <Filter>01.Client\01.Client</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

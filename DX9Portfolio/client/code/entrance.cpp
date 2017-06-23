@@ -1,7 +1,7 @@
 #include "ClientDefine.h"
 
-int APIENTRY wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine, int nCmdShow)
+int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
 {
-
-	return 0;
+	GET_SINGLE(CClient)->OnInit(hInstance);
+	return GET_SINGLE(CClient)->Run();
 }
